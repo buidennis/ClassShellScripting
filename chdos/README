@@ -1,0 +1,12 @@
+1. View All Users On The Server
+    1a. $ cat > nusers
+        who | wc -l
+        (cltr + d)
+
+    1b. chmod +x nusers
+2. View All Users On The Server (Bash Script)
+    1a. $ cat nusersDos
+        #! /bin/sh -
+
+        who | wc -l
+
